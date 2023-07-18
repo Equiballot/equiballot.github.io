@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a6fb5c0.css",
-    "main.js": "/static/js/main.9fc47794.js",
+    "main.css": "/static/css/main.99a0bc30.css",
+    "main.js": "/static/js/main.7a583ecd.js",
+    "static/media/biden.svg": "/static/media/biden.8835c306dc286ec4cb291f0bdefced98.svg",
+    "static/media/warren.svg": "/static/media/warren.99278c7ca6a691fd241a4293e21403d9.svg",
+    "static/media/cruz.svg": "/static/media/cruz.294914e2af5591b94e58aaf6c1b147a2.svg",
+    "static/media/trump.svg": "/static/media/trump.be692285f38eedf1990079e8739efecc.svg",
     "static/media/Equiballot.svg": "/static/media/Equiballot.39a962823e82b4f8c9c12db396ca7647.svg",
     "index.html": "/index.html",
-    "main.5a6fb5c0.css.map": "/static/css/main.5a6fb5c0.css.map",
-    "main.9fc47794.js.map": "/static/js/main.9fc47794.js.map"
+    "main.99a0bc30.css.map": "/static/css/main.99a0bc30.css.map",
+    "main.7a583ecd.js.map": "/static/js/main.7a583ecd.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a6fb5c0.css",
-    "static/js/main.9fc47794.js"
+    "static/css/main.99a0bc30.css",
+    "static/js/main.7a583ecd.js"
   ]
 }
