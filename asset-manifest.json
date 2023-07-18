@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.5b8065c1.js",
+    "main.css": "/static/css/main.5a6fb5c0.css",
+    "main.js": "/static/js/main.9fc47794.js",
+    "static/media/Equiballot.svg": "/static/media/Equiballot.39a962823e82b4f8c9c12db396ca7647.svg",
     "index.html": "/index.html",
-    "main.5b8065c1.js.map": "/static/js/main.5b8065c1.js.map"
+    "main.5a6fb5c0.css.map": "/static/css/main.5a6fb5c0.css.map",
+    "main.9fc47794.js.map": "/static/js/main.9fc47794.js.map"
   },
   "entrypoints": [
-    "static/js/main.5b8065c1.js"
+    "static/css/main.5a6fb5c0.css",
+    "static/js/main.9fc47794.js"
   ]
 }
