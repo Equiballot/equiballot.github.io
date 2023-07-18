@@ -1,0 +1,30 @@
+.candidate {
+    display: grid;
+    background-color: var(--secondary-purple);
+    max-width: 110px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.candidate-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px;
+}
+
+.photo {
+    min-width: 100px;
+    max-width: 200px;
+    width: 110px;
+}
+
+.name {
+    color: var(--white);
+    font-size: 12px;
+}
+
+.party {
+    color: var(--white);
+    font-size: 10px;
+}
