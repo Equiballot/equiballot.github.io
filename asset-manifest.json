@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.156b4746.css",
-    "main.js": "/static/js/main.251bdbe3.js",
+    "main.css": "/static/css/main.1b36f502.css",
+    "main.js": "/static/js/main.028a8187.js",
     "static/media/morell.svg": "/static/media/morell.884b68c4e2e6cf7870fdba4b56f95638.svg",
     "static/media/biden.svg": "/static/media/biden.8835c306dc286ec4cb291f0bdefced98.svg",
     "static/media/mclaughlin.svg": "/static/media/mclaughlin.b90dcdfe0963f63f741ea69a6b1e0700.svg",
@@ -20,11 +20,11 @@
     "static/media/caraviello.svg": "/static/media/caraviello.f41ec58e6d4bc8fc77ab18a123dd6a04.svg",
     "static/media/Equiballot.svg": "/static/media/Equiballot.39a962823e82b4f8c9c12db396ca7647.svg",
     "index.html": "/index.html",
-    "main.156b4746.css.map": "/static/css/main.156b4746.css.map",
-    "main.251bdbe3.js.map": "/static/js/main.251bdbe3.js.map"
+    "main.1b36f502.css.map": "/static/css/main.1b36f502.css.map",
+    "main.028a8187.js.map": "/static/js/main.028a8187.js.map"
   },
   "entrypoints": [
-    "static/css/main.156b4746.css",
-    "static/js/main.251bdbe3.js"
+    "static/css/main.1b36f502.css",
+    "static/js/main.028a8187.js"
   ]
 }
