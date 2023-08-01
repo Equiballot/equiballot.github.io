@@ -49,6 +49,7 @@
 }
 
 .stance-selectors {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     gap: 10px;

@@ -19,7 +19,7 @@ function Home() {
                 </section>
                 <section className="cta-section">
                     <a className="landing--cta">How to Vote</a>
-                    <a className="landing--cta" href="/candidates">
+                    <a className="landing--cta" href="#/candidates">
                         View Candidates
                     </a>
                 </section>

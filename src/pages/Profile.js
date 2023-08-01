@@ -1,12 +1,26 @@
 import "../css/styles.css";
 import "../css/profile.css";
 import { useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar.js";
 
 function Profile() {
+    const navigate = useNavigate();
     const location = useLocation();
     const state = location.state;
-    const stances = state.candidate.keyStances;
+    const keyStances = state.candidate.keyStances;
+    const stanceInfos = state.candidate.stanceInfo;
+    console.log(keyStances);
+
+    const goToStance = (i) => {
+        navigate("/stance", {
+            state: {
+                keyStances: keyStances,
+                stanceInfos: stanceInfos,
+                which: i,
+            },
+        });
+    };
 
     return (
         <div className="profile-container">
@@ -26,8 +40,12 @@ function Profile() {
                 <section className="stances">
                     <h1 className="title">Key Stances</h1>
                     <div className="stance-selectors">
-                        {stances.map((s, i) => (
-                            <a className="stance-selector" key={i}>
+                        {keyStances.map((s, i) => (
+                            <a
+                                className="stance-selector"
+                                key={i}
+                                onClick={() => goToStance(i)}
+                            >
                                 {s}
                             </a>
                         ))}

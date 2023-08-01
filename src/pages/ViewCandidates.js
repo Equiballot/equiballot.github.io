@@ -5,6 +5,18 @@ import Biden from "../img/biden.svg";
 import Trump from "../img/trump.svg";
 import Warren from "../img/warren.svg";
 import Cruz from "../img/cruz.svg";
+import Bears from "../img/bears.svg";
+import Caraviello from "../img/caraviello.svg";
+import Collins from "../img/collins.svg";
+import Graham from "../img/graham.svg";
+import Hays from "../img/hays.svg";
+import Knight from "../img/knight.svg";
+import McLaughlin from "../img/mclaughlin.svg";
+import Morell from "../img/morell.svg";
+import Mustone from "../img/mustone.svg";
+import Ruseau from "../img/ruseau.svg";
+import Scarpelli from "../img/scarpelli.svg";
+import Tseng from "../img/tseng.svg";
 import { useState } from "react";
 import Candidate from "../components/Candidate.js";
 
@@ -12,55 +24,139 @@ function ViewCandidates() {
     const [isCityCouncil, setIsCityCouncil] = useState(true);
     const [cityCouncilCandidates, setCityCouncilCandidates] = useState([
         {
-            image: Biden,
-            name: "Joe Biden",
-            position: "Candidate",
-            party: "Democrat",
-            experience: `I have had the privilege of serving in various roles throughout my career, making a positive impact on the community. I currently hold the position of Senator in the United States Senate, where I have been serving since January 2010. During my tenure, I have been actively involved in shaping policies and have authored and sponsored important legislation on healthcare reform. Additionally, I have been a strong advocate for improving access and affordability in the field of education. Furthermore, I have consistently championed environmental protection and have been dedicated to advancing sustainable energy policies.
+            image: Morell,
+            name: "Nicole Morell",
+            position: "Medford City Council Candidate",
+            party: "Party",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
 
-Prior to my work in the Senate, I served as the Mayor of the City of Springfield from January 2005 to December 2009. In this role, I successfully implemented economic development strategies that attracted new businesses, created job opportunities, and revitalized our local economy. I also prioritized public safety by introducing community policing programs, fostering closer relationships between law enforcement and residents. Moreover, I led initiatives to modernize the city's infrastructure, enhancing the quality of life for all our residents.
-
-Throughout my career, I have demonstrated a commitment to public service and a track record of delivering results. I am proud of the progress we have made and look forward to continuing to serve and make a positive difference in our community.`,
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
             keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
         },
         {
-            image: Trump,
-            name: "Donald Trump",
-            position: "Candidate",
-            party: "Republican",
-            experience: `I have had the privilege of serving in various roles throughout my career, making a positive impact on the community. I currently hold the position of Senator in the United States Senate, where I have been serving since January 2010. During my tenure, I have been actively involved in shaping policies and have authored and sponsored important legislation on healthcare reform. Additionally, I have been a strong advocate for improving access and affordability in the field of education. Furthermore, I have consistently championed environmental protection and have been dedicated to advancing sustainable energy policies.
+            image: Bears,
+            name: "Issac B. Bears",
+            position: "Medford City Council Candidate",
+            party: "Party",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
 
-Prior to my work in the Senate, I served as the Mayor of the City of Springfield from January 2005 to December 2009. In this role, I successfully implemented economic development strategies that attracted new businesses, created job opportunities, and revitalized our local economy. I also prioritized public safety by introducing community policing programs, fostering closer relationships between law enforcement and residents. Moreover, I led initiatives to modernize the city's infrastructure, enhancing the quality of life for all our residents.
-
-Throughout my career, I have demonstrated a commitment to public service and a track record of delivering results. I am proud of the progress we have made and look forward to continuing to serve and make a positive difference in our community.`,
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
             keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
+        },
+        {
+            image: Caraviello,
+            name: "Richard F. Caraviello",
+            position: "Medford City Council Candidate",
+            party: "Democrat",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
+
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
+            keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
+        },
+        {
+            image: Collins,
+            name: "Kit Collins",
+            position: "Medford City Council Candidate",
+            party: "Democrat",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
+
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
+            keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
+        },
+        {
+            image: Knight,
+            name: "Adam Knight",
+            position: "Medford City Council Candidate",
+            party: "Party",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
+
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
+            keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
+        },
+        {
+            image: Scarpelli,
+            name: "George A. Scarpelli",
+            position: "Medford City Council Candidate",
+            party: "Party",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
+
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
+            keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
+        },
+        {
+            image: Tseng,
+            name: "Justin Tseng",
+            position: "Medford City Council Candidate",
+            party: "Democrat",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
+
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
+            keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
         },
     ]);
 
-    const [schoolCommiteeCandidates, setSchoolCommiteeCandidates] = useState([
+    const [schoolCommitteeCandidates, setSchoolCommitteeCandidates] = useState([
         {
-            image: Warren,
-            name: "Elizabeth Warren",
-            position: "Candidate",
-            party: "Democrat",
-            experience: `I have had the privilege of serving in various roles throughout my career, making a positive impact on the community. I currently hold the position of Senator in the United States Senate, where I have been serving since January 2010. During my tenure, I have been actively involved in shaping policies and have authored and sponsored important legislation on healthcare reform. Additionally, I have been a strong advocate for improving access and affordability in the field of education. Furthermore, I have consistently championed environmental protection and have been dedicated to advancing sustainable energy policies.
+            image: Graham,
+            name: "Jenny Graham",
+            position: "Medford School Committee Candidate",
+            party: "Party",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
 
-Prior to my work in the Senate, I served as the Mayor of the City of Springfield from January 2005 to December 2009. In this role, I successfully implemented economic development strategies that attracted new businesses, created job opportunities, and revitalized our local economy. I also prioritized public safety by introducing community policing programs, fostering closer relationships between law enforcement and residents. Moreover, I led initiatives to modernize the city's infrastructure, enhancing the quality of life for all our residents.
-
-Throughout my career, I have demonstrated a commitment to public service and a track record of delivering results. I am proud of the progress we have made and look forward to continuing to serve and make a positive difference in our community.`,
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
             keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
         },
         {
-            image: Cruz,
-            name: "Ted Cruz",
-            position: "Candidate",
-            party: "Republican",
-            experience: `I have had the privilege of serving in various roles throughout my career, making a positive impact on the community. I currently hold the position of Senator in the United States Senate, where I have been serving since January 2010. During my tenure, I have been actively involved in shaping policies and have authored and sponsored important legislation on healthcare reform. Additionally, I have been a strong advocate for improving access and affordability in the field of education. Furthermore, I have consistently championed environmental protection and have been dedicated to advancing sustainable energy policies.
+            image: Hays,
+            name: "Sharon Hays",
+            position: "Medford School Committee Candidate",
+            party: "Party",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
 
-Prior to my work in the Senate, I served as the Mayor of the City of Springfield from January 2005 to December 2009. In this role, I successfully implemented economic development strategies that attracted new businesses, created job opportunities, and revitalized our local economy. I also prioritized public safety by introducing community policing programs, fostering closer relationships between law enforcement and residents. Moreover, I led initiatives to modernize the city's infrastructure, enhancing the quality of life for all our residents.
-
-Throughout my career, I have demonstrated a commitment to public service and a track record of delivering results. I am proud of the progress we have made and look forward to continuing to serve and make a positive difference in our community.`,
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
             keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
+        },
+        {
+            image: McLaughlin,
+            name: "Mealnie McLaughlin",
+            position: "Medford School Committee Candidate",
+            party: "Party",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
+
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
+            keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
+        },
+        {
+            image: Mustone,
+            name: "Mea Quinn Mustone",
+            position: "Medford School Committee Candidate",
+            party: "Party",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
+
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
+            keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
+        },
+        {
+            image: Ruseau,
+            name: "Paul Ruseau",
+            position: "Medford School Committee Candidate",
+            party: "Party",
+            experience: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id.
+
+            Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.`,
+            keyStances: ["Thing1", "Thing2", "Thing3"],
+            stanceInfo: ["Info1", "Info2", "Info3"],
         },
     ]);
 
@@ -68,7 +164,7 @@ Throughout my career, I have demonstrated a commitment to public service and a t
         setIsCityCouncil(true);
     };
 
-    const changeToSchoolCommitee = () => {
+    const changeToSchoolCommittee = () => {
         setIsCityCouncil(false);
     };
 
@@ -85,9 +181,9 @@ Throughout my career, I have demonstrated a commitment to public service and a t
                     </button>
                     <button
                         className="school-committee"
-                        onClick={changeToSchoolCommitee}
+                        onClick={changeToSchoolCommittee}
                     >
-                        School Commitee
+                        School Committee
                     </button>
                 </div>
                 <div className="candidates">
@@ -96,7 +192,7 @@ Throughout my career, I have demonstrated a commitment to public service and a t
                             <Candidate candidate={c} key={i} />
                         ))}
                     {!isCityCouncil &&
-                        schoolCommiteeCandidates.map((c, i) => (
+                        schoolCommitteeCandidates.map((c, i) => (
                             <Candidate candidate={c} key={i} />
                         ))}
                 </div>
