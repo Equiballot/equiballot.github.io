@@ -1,22 +1,21 @@
 import "../css/styles.css";
 import "../css/profile.css";
-import { useLocation } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useParams, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar.js";
+import allCandidates from "../allCandidates.json";
 
 function Profile() {
     const navigate = useNavigate();
-    const location = useLocation();
-    const state = location.state;
-    const keyStances = state.candidate.keyStances;
-    const stanceInfos = state.candidate.stanceInfo;
-    console.log(keyStances);
+    const params = useParams();
+    const candidate = allCandidates.find(
+        (candidate) => candidate.id === params.id
+    );
 
     const goToStance = (i) => {
-        navigate("/stance", {
+        navigate(`/profile/${candidate.id}/stance${i + 1}`, {
             state: {
-                keyStances: keyStances,
-                stanceInfos: stanceInfos,
+                keyStances: candidate.keyStances,
+                stanceInfos: candidate.stanceInfo,
                 which: i,
             },
         });
@@ -29,18 +28,16 @@ function Profile() {
                 <section className="cand-info">
                     <img
                         className="profile-photo"
-                        src={state.candidate.image}
+                        src={`/img/${candidate.src}`}
                     />
-                    <h1 className="candidate-name">{state.candidate.name}</h1>
-                    <h1 className="candidate-position">
-                        {state.candidate.position}
-                    </h1>
-                    <h1 className="candidate-party">{state.candidate.party}</h1>
+                    <h1 className="candidate-name">{candidate.name}</h1>
+                    <h1 className="candidate-position">{candidate.position}</h1>
+                    <h1 className="candidate-party">{candidate.party}</h1>
                 </section>
                 <section className="stances">
                     <h1 className="title">Key Stances</h1>
                     <div className="stance-selectors">
-                        {keyStances.map((s, i) => (
+                        {candidate.keyStances.map((s, i) => (
                             <a
                                 className="stance-selector"
                                 key={i}
@@ -53,7 +50,7 @@ function Profile() {
                 </section>
                 <section className="experience-section">
                     <h1 className="title">Experience</h1>
-                    <p className="experience">{state.candidate.experience}</p>
+                    <p className="experience">{candidate.experience}</p>
                 </section>
             </main>
         </div>

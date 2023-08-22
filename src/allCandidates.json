@@ -1,0 +1,134 @@
+[
+    {
+        "id": "Morell",
+        "src": "morell.svg",
+        "name": "Nicole Morell",
+        "position": "Medford City Council Candidate",
+        "party": "Democrat",
+        "experience": "I grew up in Fall River and am a proud graduate of the public school system. I hold a bachelor of arts in journalism from the University of Rhode Island, graduating with highest honors and minoring in economics and political science. I’ve spent my career in digital media as a writer, social media manager, and strategist. Since 2014, I have worked at MIT and currently work in the Office of Sustainability as a communications specialist. It's my job to communicate the hard work MIT is doing to address issues like climate change, use of resources, and sustainable food and waste systems. My work focuses on understanding and communicating individual stories, high level research, and complex concepts. The ability to become a topic expert in a short time and share the importance of news and research are skills that help me stand out as a candidate for city council.",
+        "keyStances": [
+            "Housing",
+            "Sustainability and Transportation",
+            "Community"
+        ],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Bears",
+        "src": "bears.svg",
+        "name": "Isaac B. Bears",
+        "position": "Medford City Council Candidate",
+        "party": "Democrat",
+        "experience": "It has been my honor to serve our community during my first term. We came together to face the COVID-19 pandemic and the worst economic crisis in nearly a century, with 163 of our neighbors sadly losing their lives and thousands more facing illness. Yet we stood up and did everything we could to protect and support each other during this time of great need. I was proud to advocate for housing and unemployment protections and support our Board of Health and city staff. We owe a debt of gratitude to the thousands of residents who volunteered to expand food assistance, create online programs for seniors, and make thousands of phone calls asking “Are you OK?” and “Can we help you get a vaccine?” We have accomplished so much together over the past two years, from the first Emergency Rental Assistance Program and Housing Stability Working Group to the long overdue passage of the marijuana zoning ordinance and the ongoing work to make sure our city’s sidewalks are safe and accessible during the winter. I’m especially proud that 87 of the 95 resolutions I proposed this term have passed or are still being worked on in committee. One of the reasons I first ran for City Council was the frustration I feel when I look around at crumbling roads, sidewalks, and public buildings. I know that we deserve better. I voted against the FY2021 budget cuts to our schools and infrastructure because Medford residents deserve safe sidewalks, effective and accessible city services, and schools with resources students need to succeed. We need to assess our community’s needs and make a plan to fully fund public schools and city services. As a lifelong resident of the Fulton Heights and graduate of Medford Public Schools, I know first-hand how difficult it is for long-time residents to afford to stay in Medford and for people to move to Medford and raise their family. I remain committed to fighting for a long-term housing and development plan that addresses the housing and displacement crisis and serves the needs of our community, not big property developers.",
+        "keyStances": [
+            "Housing and Development",
+            "Public Schools/Education",
+            "Healthcare"
+        ],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Caraviello",
+        "src": "caraviello.svg",
+        "name": "Richard F. Caraviello",
+        "position": "Medford City Council Candidate",
+        "party": "Party",
+        "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id. Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.",
+        "keyStances": ["Thing1", "Thing2", "Thing3"],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Collins",
+        "src": "collins.svg",
+        "name": "Kit Collins",
+        "position": "Medford City Council Candidate",
+        "party": "Democrat",
+        "experience": "I'm a professional illustrator and muralist, renter, cyclist, runner, enthusiastic yet mediocre home cook, volunteer, and a proud resident of South Medford. I was raised in upstate New York, and I graduated from Tufts with honors in 2015 with a degree in Peace & Justice Studies. ​I believe I add needed perspectives to our City Council. I'm a renter, and with over 40% of Medford residents renting their homes, I strongly believe in having more tenants in office. In my day job as a creative professional, I rely on out-of-the-box problem-solving, effective communication, and responsiveness; I try to apply these skills to my work with my fellow Councilors, City staff, and constituents. My perspective has been deeply shaped by the organizing work I've done in our community. In 2020 I began volunteering with the Mutual Aid Medford & Somerville (MAMAS) hotline; I co-facilitated the pandemic-era Medford Know Your Rights coalition, and have stayed involved with the MAMAS' direct food aid program. I am grateful for the opportunity to organize with my neighbors, and it maintains my focus on the reality of basic needs going unmet in our community.",
+        "keyStances": [
+            "Housing",
+            "Sustainability and Climate Resiliency",
+            "Public Safety and Community Wellness"
+        ],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Knight",
+        "src": "knight.svg",
+        "name": "Adam Knight",
+        "position": "Medford City Council Candidate",
+        "party": "Party",
+        "experience": "Adam Knight, a life-long resident of Medford, was elected to the City Council in 2013 and is currently seeking re-election. Adam has earned a reputation as a no-nonsense, hard-working public servant who is readily accessible and results-orientated. Adam began his nearly 20-year career in government as Director of Constituent Services for the late Senator Charlie Shannon. During this time he worked on issues like marriage equality, universal healthcare, extension of the Green Line, the long-term leasing of state skating rinks, and the School Building Assistance Program - which resulted in Medford building new schools with a 90% reimbursement from the state. Adam later joined the Labor Movement where he advocated on behalf of workers as a political organizer, field representative and contract negotiator. He negotiated more than 30 collective bargaining agreements between employees and various government agencies at the state and local levels. Adam learned the many ways municipal services can be delivered, funded, and implemented - in a way that protects both taxpayers and working families.Currently, Adam is employed as a Conciliator and Arbitrator for Worker’s Compensation claims along with serving as your City Councilor.",
+        "keyStances": ["Public Safety", "Education", "Strong Infrastructure"],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Scarpelli",
+        "src": "scarpelli.svg",
+        "name": "George A. Scarpelli",
+        "position": "Medford City Council Candidate",
+        "party": "Party",
+        "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id. Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.",
+        "keyStances": ["Thing1", "Thing2", "Thing3"],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Tseng",
+        "src": "tseng.svg",
+        "name": "Justin Tseng",
+        "position": "Medford City Council Candidate",
+        "party": "Democrat",
+        "experience": "My name is Justin Tseng. I’m a first-generation Taiwanese American, a proud product of our Medford Public Schools, and your voice on the City Council. Since I was a kid, I have understood that as much as I love Medford, there are serious problems facing us. I’ve always worked to uplift marginalized voices and make Medford work for everyone. As your City Councilor, I’ve spent my first term collaborating with our community to make our city more affordable, sustainable, and welcoming for all. I’m proud to say Medford has finally made steps toward a brighter future. I’m running for a second term on the Medford City Council to continue building on the bold, progressive foundation we’ve put in place and to create a future that works for you, me, and our neighbors down the street.",
+        "keyStances": ["Social and Racial Justice", "Housing", "Education"],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Graham",
+        "src": "graham.svg",
+        "name": "Jenny Graham",
+        "position": "Medford School Committee Candidate",
+        "party": "Party",
+        "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id. Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.",
+        "keyStances": ["Thing1", "Thing2", "Thing3"],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Hays",
+        "src": "hays.svg",
+        "name": "Sharon Hays",
+        "position": "Medford School Committee Candidate",
+        "party": "Party",
+        "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id. Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.",
+        "keyStances": ["Thing1", "Thing2", "Thing3"],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "McLaughlin",
+        "src": "mclaughlin.svg",
+        "name": "Mealnie McLaughlin",
+        "position": "Medford School Committee Candidate",
+        "party": "Party",
+        "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id. Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.",
+        "keyStances": ["Thing1", "Thing2", "Thing3"],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Mustone",
+        "src": "mustone.svg",
+        "name": "Mea Quinn Mustone",
+        "position": "Medford School Committee Candidate",
+        "party": "Party",
+        "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id. Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.",
+        "keyStances": ["Thing1", "Thing2", "Thing3"],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    },
+    {
+        "id": "Ruseau",
+        "src": "ruseau.svg",
+        "name": "Paul Ruseau",
+        "position": "Medford School Committee Candidate",
+        "party": "Party",
+        "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Ullamcorper a lacus vestibulum sed arcu non odio. In est ante in nibh mauris cursus mattis. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Cras tincidunt lobortis feugiat vivamus at augue eget. Tristique senectus et netus et malesuada fames ac. Semper auctor neque vitae tempus quam pellentesque nec. Tincidunt ornare massa eget egestas purus viverra accumsan. Suspendisse interdum consectetur libero id faucibus. In cursus turpis massa tincidunt dui. Id aliquet risus feugiat in ante metus dictum. Iaculis urna id volutpat lacus laoreet non curabitur. Vitae sapien pellentesque habitant morbi tristique. Id aliquet risus feugiat in ante. Id porta nibh venenatis cras sed felis eget. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Quisque id diam vel quam elementum pulvinar etiam non. Pellentesque id nibh tortor id. Phasellus vestibulum lorem sed risus ultricies tristique. Tortor id aliquet lectus proin. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Fames ac turpis egestas integer eget aliquet. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Ut sem viverra aliquet eget. Metus dictum at tempor commodo. Quis blandit turpis cursus in hac habitasse. Dignissim diam quis enim lobortis. Netus et malesuada fames ac. Vitae turpis massa sed elementum. Odio tempor orci dapibus ultrices in iaculis. Ac auctor augue mauris augue neque gravida in fermentum et. Leo a diam sollicitudin tempor id eu nisl nunc. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Cursus eget nunc scelerisque viverra mauris in. Curabitur gravida arcu ac tortor dignissim convallis aenean. Tempor orci dapibus ultrices in.",
+        "keyStances": ["Thing1", "Thing2", "Thing3"],
+        "stanceInfo": ["Info1", "Info2", "Info3"]
+    }
+]

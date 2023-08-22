@@ -1,10 +1,10 @@
 import "../css/styles.css";
-import logo from "../img/Equiballot.svg";
+// import logo from "../img/Equiballot.svg";
 
 function Navbar() {
     return (
         <nav className="navbar">
-            <img src={logo} className="logo" />
+            <img src={`img/Equiballot.svg`} className="logo" />
         </nav>
     );
 }

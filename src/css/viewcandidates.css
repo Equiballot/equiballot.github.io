@@ -30,5 +30,6 @@
 .candidates {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 25px;
+    max-width: 625px;
 }

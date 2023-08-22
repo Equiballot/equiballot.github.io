@@ -1,7 +1,7 @@
 .candidate {
     display: grid;
     background-color: var(--secondary-purple);
-    max-width: 110px;
+    width: 136.25px;
     border-radius: 15px;
     cursor: pointer;
 }
@@ -18,7 +18,7 @@
     border-top-right-radius: 15px;
     min-width: 100px;
     max-width: 200px;
-    width: 110px;
+    width: 136.25px;
 }
 
 .name {
